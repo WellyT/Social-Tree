@@ -1,0 +1,79 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    font-size: 62.5%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+#profile{
+    width: 20rem;
+    height: 20rem;
+
+    border-radius: 50%;
+    border: 0.2rem solid var(--purple);
+
+    padding: 0.6rem;
+
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+h1{
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: center;
+
+    margin-bottom: 3.3rem;
+}
+
+.link{
+    width: 32.6rem;
+    height: 4.9rem;
+
+    border: 0.2rem solid var(--purple);
+    margin-bottom: 1.6rem;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.2rem;
+
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.link:hover{
+    background: var(--purple);
+    border: .2rem solid #700440;;
+    color: var(--body-bg-color);
+}
+
+a:nth-child(6){
+    margin-bottom: 4.8rem;
+}
+svg{
+stroke: var(--purple);
+margin: 0 1.45rem;
+}
+div a{
+    border: none;
+}
+svg:hover{
+    fill:var(--purple);
+}
